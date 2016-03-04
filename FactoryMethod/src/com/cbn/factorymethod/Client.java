@@ -1,5 +1,9 @@
 package com.cbn.factorymethod;
-
+/**
+ * 针对一个产品结构
+ * @author boning
+ *
+ */
 public class Client {
 	public static void main(String[] args) {
 		IFruit fruit;
