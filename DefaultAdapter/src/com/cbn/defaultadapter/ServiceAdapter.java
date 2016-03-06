@@ -5,7 +5,7 @@ package com.cbn.defaultadapter;
  * @author boning
  *
  */
-public class ServiceAdapter implements AbstractService{
+public abstract class ServiceAdapter implements AbstractService{
 
 	@Override
 	public void serviceOperation1() {
