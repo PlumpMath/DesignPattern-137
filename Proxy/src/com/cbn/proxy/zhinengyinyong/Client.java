@@ -11,5 +11,10 @@ package com.cbn.proxy.zhinengyinyong;
  *
  */
 public class Client {
-
+	public static void main(String[] args) {
+		//可以看出，变量searcher的静态类型是Searcher，真实类型Proxy，这就保证了客户端的调用不能分辨
+		//RealSearcher和Proxy
+		Searcher searcher = new Proxy();
+		System.out.println(searcher.doSearch("Admin", "Admin"));
+	}
 }
